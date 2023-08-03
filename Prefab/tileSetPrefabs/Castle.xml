@@ -1,0 +1,72 @@
+<set>
+  <tiles>
+    <tile name="tileSetPrefabs/Castle/bridge" symmetry="I"/>
+    <tile name="tileSetPrefabs/Castle/ground" symmetry="X"/>
+    <tile name="tileSetPrefabs/Castle/river" symmetry="I"/>
+    <tile name="tileSetPrefabs/Castle/riverturn" symmetry="L"/>
+    <tile name="tileSetPrefabs/Castle/road" symmetry="I"/>
+    <tile name="tileSetPrefabs/Castle/roadturn" symmetry="L"/>
+    <tile name="tileSetPrefabs/Castle/t" symmetry="T"/>
+    <tile name="tileSetPrefabs/Castle/tower" symmetry="L"/>
+    <tile name="tileSetPrefabs/Castle/wall" symmetry="I"/>
+  </tiles>
+  <neighbors>
+    <neighbor left="tileSetPrefabs/Castle/bridge 1" right="tileSetPrefabs/Castle/river 1"/>
+    <neighbor left="tileSetPrefabs/Castle/bridge 1" right="tileSetPrefabs/Castle/riverturn 1"/>
+    <neighbor left="tileSetPrefabs/Castle/bridge 1" right="tileSetPrefabs/Castle/road 1"/>
+    <neighbor left="tileSetPrefabs/Castle/bridge 1" right="tileSetPrefabs/Castle/roadturn 1"/>
+    <neighbor left="tileSetPrefabs/Castle/bridge 1" right="tileSetPrefabs/Castle/t"/>
+    <neighbor left="tileSetPrefabs/Castle/bridge 1" right="tileSetPrefabs/Castle/t 3"/>
+    <neighbor left="tileSetPrefabs/Castle/bridge 1" right="tileSetPrefabs/Castle/road"/>
+    <neighbor left="tileSetPrefabs/Castle/ground 1" right="tileSetPrefabs/Castle/ground"/>
+    <neighbor left="tileSetPrefabs/Castle/ground 1" right="tileSetPrefabs/Castle/river"/>
+    <neighbor left="tileSetPrefabs/Castle/ground 1" right="tileSetPrefabs/Castle/riverturn"/>
+    <neighbor left="tileSetPrefabs/Castle/ground 1" right="tileSetPrefabs/Castle/road"/>
+    <neighbor left="tileSetPrefabs/Castle/ground 1" right="tileSetPrefabs/Castle/roadturn"/>
+    <neighbor left="tileSetPrefabs/Castle/ground 1" right="tileSetPrefabs/Castle/t 1"/>
+    <neighbor left="tileSetPrefabs/Castle/ground 1" right="tileSetPrefabs/Castle/tower"/>
+    <neighbor left="tileSetPrefabs/Castle/ground 1" right="tileSetPrefabs/Castle/wall"/>
+    <neighbor left="tileSetPrefabs/Castle/river 1" right="tileSetPrefabs/Castle/river 1"/>
+    <neighbor left="tileSetPrefabs/Castle/river 1" right="tileSetPrefabs/Castle/riverturn 1"/>
+    <neighbor left="tileSetPrefabs/Castle/river" right="tileSetPrefabs/Castle/road"/>
+    <neighbor left="tileSetPrefabs/Castle/river" right="tileSetPrefabs/Castle/roadturn"/>
+    <neighbor left="tileSetPrefabs/Castle/river" right="tileSetPrefabs/Castle/t 1"/>
+    <neighbor left="tileSetPrefabs/Castle/river" right="tileSetPrefabs/Castle/tower"/>
+    <neighbor left="tileSetPrefabs/Castle/river" right="tileSetPrefabs/Castle/wall"/>
+    <neighbor left="tileSetPrefabs/Castle/river 1" right="tileSetPrefabs/Castle/river"/>
+    <neighbor left="tileSetPrefabs/Castle/riverturn" right="tileSetPrefabs/Castle/riverturn 2"/>
+    <neighbor left="tileSetPrefabs/Castle/road" right="tileSetPrefabs/Castle/riverturn"/>
+    <neighbor left="tileSetPrefabs/Castle/roadturn 1" right="tileSetPrefabs/Castle/riverturn"/>
+    <neighbor left="tileSetPrefabs/Castle/roadturn 2" right="tileSetPrefabs/Castle/riverturn"/>
+    <neighbor left="tileSetPrefabs/Castle/t 3" right="tileSetPrefabs/Castle/riverturn"/>
+    <neighbor left="tileSetPrefabs/Castle/tower 1" right="tileSetPrefabs/Castle/riverturn"/>
+    <neighbor left="tileSetPrefabs/Castle/tower 2" right="tileSetPrefabs/Castle/riverturn"/>
+    <neighbor left="tileSetPrefabs/Castle/wall" right="tileSetPrefabs/Castle/riverturn"/>
+    <neighbor left="tileSetPrefabs/Castle/riverturn" right="tileSetPrefabs/Castle/river"/>
+    <neighbor left="tileSetPrefabs/Castle/road 1" right="tileSetPrefabs/Castle/road 1"/>
+    <neighbor left="tileSetPrefabs/Castle/roadturn" right="tileSetPrefabs/Castle/road 1"/>
+    <neighbor left="tileSetPrefabs/Castle/road 1" right="tileSetPrefabs/Castle/t"/>
+    <neighbor left="tileSetPrefabs/Castle/road 1" right="tileSetPrefabs/Castle/t 3"/>
+    <neighbor left="tileSetPrefabs/Castle/road" right="tileSetPrefabs/Castle/tower"/>
+    <neighbor left="tileSetPrefabs/Castle/road" right="tileSetPrefabs/Castle/wall"/>
+    <neighbor left="tileSetPrefabs/Castle/road 1" right="tileSetPrefabs/Castle/road"/>
+    <neighbor left="tileSetPrefabs/Castle/roadturn" right="tileSetPrefabs/Castle/roadturn 2"/>
+    <neighbor left="tileSetPrefabs/Castle/roadturn" right="tileSetPrefabs/Castle/t"/>
+    <neighbor left="tileSetPrefabs/Castle/roadturn 1" right="tileSetPrefabs/Castle/tower"/>
+    <neighbor left="tileSetPrefabs/Castle/roadturn 2" right="tileSetPrefabs/Castle/tower"/>
+    <neighbor left="tileSetPrefabs/Castle/roadturn 1" right="tileSetPrefabs/Castle/wall"/>
+    <neighbor left="tileSetPrefabs/Castle/roadturn" right="tileSetPrefabs/Castle/road"/>
+    <neighbor left="tileSetPrefabs/Castle/t" right="tileSetPrefabs/Castle/t 2"/>
+    <neighbor left="tileSetPrefabs/Castle/t 3" right="tileSetPrefabs/Castle/tower"/>
+    <neighbor left="tileSetPrefabs/Castle/t 3" right="tileSetPrefabs/Castle/wall"/>
+    <neighbor left="tileSetPrefabs/Castle/t" right="tileSetPrefabs/Castle/road"/>
+    <neighbor left="tileSetPrefabs/Castle/t 1" right="tileSetPrefabs/Castle/road"/>
+    <neighbor left="tileSetPrefabs/Castle/tower" right="tileSetPrefabs/Castle/wall 1"/>
+    <neighbor left="tileSetPrefabs/Castle/tower" right="tileSetPrefabs/Castle/river 1"/>
+    <neighbor left="tileSetPrefabs/Castle/tower" right="tileSetPrefabs/Castle/road 1"/>
+    <neighbor left="tileSetPrefabs/Castle/wall 1" right="tileSetPrefabs/Castle/wall 1"/>
+    <neighbor left="tileSetPrefabs/Castle/wall 1" right="tileSetPrefabs/Castle/river 1"/>
+    <neighbor left="tileSetPrefabs/Castle/wall 1" right="tileSetPrefabs/Castle/road 1"/>
+    <neighbor left="tileSetPrefabs/Castle/river 1" right="tileSetPrefabs/Castle/road 1"/>
+  </neighbors>
+</set>

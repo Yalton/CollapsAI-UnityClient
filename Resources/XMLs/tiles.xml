@@ -1,0 +1,8 @@
+<set>
+  <tiles>
+<tile name="Assets/Prefab/tileSetPrefabs/Castle/river" symmetry="X" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="Assets/Prefab/tileSetPrefabs/Castle/river 0" right="Assets/Prefab/tileSetPrefabs/Castle/river 0"/>
+  <neighbor left="Assets/Prefab/tileSetPrefabs/Castle/river 1" right="Assets/Prefab/tileSetPrefabs/Castle/river 1"/>
+	</neighbors>
+</set>
